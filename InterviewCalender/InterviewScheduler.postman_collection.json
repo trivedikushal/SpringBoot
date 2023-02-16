@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "5f8164ce-259a-43d1-8b9d-ad6510ece828",
+		"name": "InterviewScheduler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateCity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n    \"cityName\":\"Ahmedabad\",\r\n    \"stateName\":\"Gujarat\"\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/city/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"city",
+						"create"
+					]
+				},
+				"description": "Create New City"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateJobType",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"jobTypeName\":\"Contract\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/jobType/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jobType",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDeliveryType",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"deliveryTypeName\":\"FULL-TIME\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/deliveryType/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"deliveryType",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCompanyDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"companySize\":25,\r\n        \"positionId\": \"12432\",\r\n        \"city\":\r\n        {\r\n            \"cityName\":\"Mumbai\",\r\n            \"stateName\":\"Maharashtra\"\r\n        }\r\n    } \r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/companyDetails/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"companyDetails",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateInterviewDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"interviewDate\": \"2023-02-16\",\r\n    \"interviewTime\": \"3 PM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/interviewDetails/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"interviewDetails",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateApplicationDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"companyDetails\":\r\n    {\r\n        \"companySize\": 35,\r\n        \"city\":\r\n        {\r\n            \"cityName\":\"Ahmedabad\",\r\n            \"stateName\":\"Gujarat\"\r\n        },\r\n        \"positionId\": \"W3JK127\"\r\n    },\r\n    \"positionName\":\"Java Developer\",\r\n    \"deliveryType\":\r\n    {\r\n        \"deliveryTypeName\": \"FULL-TIME\"\r\n    },\r\n    \"jobType\":\r\n    {\r\n        \"jobTypeName\":\"CONTRACT\"\r\n    },\r\n    \"applicationStatus\":\"INTERVIEW CALL\",\r\n    \"applicationPlatform\":\"Linked In\",\r\n    \"appliedDate\": \"2022-02-10\",\r\n    \"interviewDetails\":\r\n    {\r\n        \"interviewDate\":\"2022-02-16\",\r\n        \"interviewTime\": \"4 PM\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/applicationDetails/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"applicationDetails",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,150 @@
+{
+	"id": "6ac224e1-3637-41e3-a8ac-3859378c96dc",
+	"name": "InterviewScheduler",
+	"timestamp": "2023-02-16T19:48:56.627Z",
+	"collection_id": "5f8164ce-259a-43d1-8b9d-ad6510ece828",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8dc4717f-3e8e-4744-aa68-69f54db5c4fd",
+			"name": "CreateCity",
+			"url": "http://localhost:8080/api/city/create",
+			"time": 27,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				27
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6f6a42f9-b632-42ec-8921-fd01f0159881",
+			"name": "CreateJobType",
+			"url": "http://localhost:8080/api/jobType/create",
+			"time": 29,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				29
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ebba5b43-431f-497a-8e11-557a86916cf1",
+			"name": "CreateDeliveryType",
+			"url": "http://localhost:8080/api/deliveryType/create",
+			"time": 30,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				30
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d94fb2d6-5dde-440d-9a41-f38752c8d66b",
+			"name": "CreateCompanyDetails",
+			"url": "http://localhost:8080/api/companyDetails/create",
+			"time": 26,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				26
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ce9aa0e0-83f9-4f3a-bbec-05094fdb0f86",
+			"name": "CreateInterviewDetails",
+			"url": "http://localhost:8080/api/interviewDetails/create",
+			"time": 37,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				37
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "74e72493-3b00-4d6f-84dd-a09e01b6a4d4",
+			"name": "CreateApplicationDetails",
+			"url": "http://localhost:8080/api/applicationDetails/create",
+			"time": 41,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				41
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 190,
+	"collection": {
+		"requests": [
+			{
+				"id": "8dc4717f-3e8e-4744-aa68-69f54db5c4fd",
+				"method": "POST"
+			},
+			{
+				"id": "6f6a42f9-b632-42ec-8921-fd01f0159881",
+				"method": "POST"
+			},
+			{
+				"id": "ebba5b43-431f-497a-8e11-557a86916cf1",
+				"method": "POST"
+			},
+			{
+				"id": "d94fb2d6-5dde-440d-9a41-f38752c8d66b",
+				"method": "POST"
+			},
+			{
+				"id": "ce9aa0e0-83f9-4f3a-bbec-05094fdb0f86",
+				"method": "POST"
+			},
+			{
+				"id": "74e72493-3b00-4d6f-84dd-a09e01b6a4d4",
+				"method": "POST"
+			}
+		]
+	}
+}

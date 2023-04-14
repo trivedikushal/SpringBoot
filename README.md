@@ -4,3 +4,5 @@ This project containts the system to manage the upcoming interview schedule of a
 
 File named InterviewScheduler.postman_collection.json contains the information of all the APIs of the project and that can be run directly on the postman.
 
+UI for all the APIs will be available soon.
+
